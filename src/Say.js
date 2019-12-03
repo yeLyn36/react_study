@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { cpus } from 'os';
 
 const Say = () => {
   const [message, setMessage] = useState('');
