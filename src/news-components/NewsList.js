@@ -31,7 +31,7 @@ const NewsList = () => {
         setArticle(response.data.articles);
       } catch (e) {
         console.log(e);
-      }
+      } 
       setLoading(false);
     };
     fetchdata();
