@@ -1,9 +1,15 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import NewsPage from './page/NewsPage';
+import ColorBox from './context/ColorBox';
+import { ColorProvider } from './context/color';
 
 const App = () => {
-  return <Route path="/:category?" component={NewsPage} />;
+  return (
+    <ColorProvider>
+      <div>
+        <ColorBox />
+      </div>
+    </ColorProvider>
+  );
 };
 
 export default App;
