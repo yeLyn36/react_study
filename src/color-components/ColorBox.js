@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorConsumer } from './color';
+import { ColorConsumer } from '../context/color';
 
 const ColorBox = () => {
   return (
