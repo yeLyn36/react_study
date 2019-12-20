@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import { ColorConsumer } from '../context/color';
 
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'navy', 'purple'];
+const colors = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'blue',
+  'navy',
+  'purple',
+  'brown',
+  'black',
+  'white',
+];
 
 class SelectColors extends Component {
   static contextType = ColorConsumer;
