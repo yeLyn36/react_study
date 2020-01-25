@@ -12,6 +12,7 @@ const colors = [
   'brown',
   'black',
   'white',
+  'pink',
 ];
 
 class SelectColors extends Component {
