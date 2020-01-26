@@ -60,3 +60,6 @@ const render = () => {
   //카운터 처리
   counter.innerText = state.counter;
 };
+
+render();
+store.subscribe(render);
