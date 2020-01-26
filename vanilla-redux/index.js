@@ -1,3 +1,5 @@
+import { createStore } from 'redux';
+
 //DOM 추가
 const divToggle = document.querySelector('.toggle');
 const counter = document.querySelector('h1');
@@ -44,3 +46,5 @@ function reducer(state = initialState, action) {
       return state;
   }
 }
+
+const store = createStore(reducer);
