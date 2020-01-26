@@ -5,7 +5,7 @@ const colors = [
   'red',
   'orange',
   'yellow',
-  'green',
+  'green',  
   'blue',
   'navy',
   'purple',
