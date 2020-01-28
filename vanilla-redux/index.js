@@ -61,5 +61,18 @@ const render = () => {
   counter.innerText = state.counter;
 };
 
+//상태가 업데이트 될 때마다 render 함수 호출
 render();
 store.subscribe(render);
+
+divToggle.onclick = () => {
+  store.dispatch(toggleSwitch());
+};
+
+btnIncrease.onclick = () => {
+  store.dispatch(increase(1));
+};
+
+btnDecrease.onclick = () => {
+  store.dispatch(decrease());
+};
